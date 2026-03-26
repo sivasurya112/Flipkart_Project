@@ -1,0 +1,7 @@
+objectRepo\ProductPage.class
+genericUtility\BaseClass.class
+objectRepo\HomePage.class
+objectRepo\CartPage.class
+genericUtility\Screenshot.class
+genericUtility\MultipleWindows.class
+objectRepo\LoginAlert.class
