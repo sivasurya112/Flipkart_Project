@@ -7,8 +7,8 @@
         <methods>
           <include name="acConfig"/>
           <include name="LE_001"/>
-          <include name="bmConfig"/>
           <include name="bcConfig"/>
+          <include name="bmConfig"/>
         </methods>
       </class> <!-- testCaseRepo.TC_001 -->
     </classes>

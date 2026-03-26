@@ -14,6 +14,7 @@ import genericUtility.MultipleWindows;
 
 public class ProductPage {
 	WebDriver d;
+	WebDriverWait wait;
 	@FindBy(xpath = "//div[text()='Brand']")
 	private WebElement brand;
 	@FindBy(xpath = "//div[@title='4★ & above']")
@@ -30,8 +31,9 @@ public class ProductPage {
 	public ProductPage(WebDriver d) {
 		this.d=d;
 		PageFactory.initElements(d, this);
+		this.wait= new WebDriverWait(d, Duration.ofSeconds(10));
 	}
-	WebDriverWait wait= new WebDriverWait(d, Duration.ofSeconds(10));
+	
 	
 	
 	

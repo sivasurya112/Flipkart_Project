@@ -16,15 +16,20 @@ public class BaseClass {
 	@BeforeClass(alwaysRun = true)
 	public void bcConfig() {
 		d=new ChromeDriver();
-		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		d.manage().window().maximize();
-		d.get("https://www.flipkart.com/");
+		
 	}
 	
 	@BeforeMethod(alwaysRun = true)
 	public void bmConfig() throws InterruptedException {
-		LoginAlert la = new LoginAlert(d);
-		la.closeLoginPopup();
+		d.get("https://www.flipkart.com/");
+		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		try {
+	        new LoginAlert(d).closeLoginPopup();
+	    } catch (Exception e) {
+	        // Never let @BeforeMethod crash — just log and continue
+	        System.out.println("bmConfig: popup not found, continuing. " + e.getMessage());
+	    }
 	}
 	@AfterClass(alwaysRun = true)
 	public void acConfig() {

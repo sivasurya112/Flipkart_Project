@@ -1,5 +1,7 @@
 package objectRepo;
 
+import java.util.NoSuchElementException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -24,10 +26,16 @@ public class LoginAlert {
 		return crossMark;
 	}
 	
-	public void closeLoginPopup() {
-		if(getCrossMark().isDisplayed())
-			getCrossMark().click();
-	}
+		public void closeLoginPopup() {
+		    try {
+		        if (crossMark.isDisplayed()) {
+		            crossMark.click();
+		            System.out.println("Login popup closed.");
+		        }
+		    } catch (Exception e) {
+		        System.out.println("Login popup not present, continuing.");
+		    }
+		}
 
 	
 	

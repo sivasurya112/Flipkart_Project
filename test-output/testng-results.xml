@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-26T13:11:46 IST" name="Default suite" finished-at="2026-03-26T13:12:22 IST" duration-ms="36014">
+  <suite started-at="2026-03-26T13:54:12 IST" name="Default suite" finished-at="2026-03-26T13:54:47 IST" duration-ms="34482">
     <groups>
     </groups>
-    <test started-at="2026-03-26T13:11:46 IST" name="Default test" finished-at="2026-03-26T13:12:22 IST" duration-ms="36014">
+    <test started-at="2026-03-26T13:54:12 IST" name="Default test" finished-at="2026-03-26T13:54:47 IST" duration-ms="34482">
       <class name="testCaseRepo.TC_001">
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:11:46 IST" name="bcConfig" finished-at="2026-03-26T13:11:54 IST" duration-ms="7748" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:54:12 IST" name="bcConfig" finished-at="2026-03-26T13:54:15 IST" duration-ms="2670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:11:54 IST" name="bmConfig" finished-at="2026-03-26T13:11:56 IST" duration-ms="2668" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:54:15 IST" name="bmConfig" finished-at="2026-03-26T13:54:22 IST" duration-ms="7446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="LE_001()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:11:56 IST" name="LE_001" finished-at="2026-03-26T13:12:21 IST" duration-ms="24221" status="PASS">
+        <test-method signature="LE_001()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:54:22 IST" name="LE_001" finished-at="2026-03-26T13:54:45 IST" duration-ms="22911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LE_001 -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:12:21 IST" name="acConfig" finished-at="2026-03-26T13:12:22 IST" duration-ms="1285" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:54:45 IST" name="acConfig" finished-at="2026-03-26T13:54:47 IST" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
