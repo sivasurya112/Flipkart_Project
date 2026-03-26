@@ -71,7 +71,7 @@ public class ProductPage {
 		getBrand().click();
 		wait.until(ExpectedConditions.elementToBeClickable(boatCkeck)).click();
 		Thread.sleep(5000);
-		wait.until(ExpectedConditions.visibilityOf(getCustomerRating())).click();
+		wait.until(ExpectedConditions.elementToBeClickable(getCustomerRating())).click();
 		getPriceFilter().click();
 		Thread.sleep(3000);
 		wait.until(ExpectedConditions.elementToBeClickable(getFirstProd())).click();

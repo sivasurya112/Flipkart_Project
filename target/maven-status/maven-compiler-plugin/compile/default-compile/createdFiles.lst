@@ -4,4 +4,5 @@ objectRepo\HomePage.class
 objectRepo\CartPage.class
 genericUtility\Screenshot.class
 genericUtility\MultipleWindows.class
+genericUtility\RertyAnalyzerImplementation.class
 objectRepo\LoginAlert.class
