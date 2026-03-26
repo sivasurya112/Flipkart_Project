@@ -70,10 +70,10 @@ public class ProductPage {
 	public void filterProduct() throws InterruptedException {
 		getBrand().click();
 		wait.until(ExpectedConditions.elementToBeClickable(boatCkeck)).click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		wait.until(ExpectedConditions.visibilityOf(getCustomerRating())).click();
 		getPriceFilter().click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		wait.until(ExpectedConditions.elementToBeClickable(getFirstProd())).click();
 		new MultipleWindows().switchTab(d);
 		
