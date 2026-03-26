@@ -17,7 +17,7 @@ public class ProductPage {
 	WebDriverWait wait;
 	@FindBy(xpath = "//div[text()='Brand']")
 	private WebElement brand;
-	@FindBy(xpath = "//div[@title='4★ & above']")
+	@FindBy(xpath = "//div[contains(@title,'4')]")
 	private WebElement customerRating;
 	@FindBy(xpath = "(//a[@class='pIpigb'])[1]")
 	private WebElement firstProd;

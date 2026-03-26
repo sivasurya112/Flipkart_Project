@@ -1,25 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results retried="1" ignored="0" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-26T13:54:12 IST" name="Default suite" finished-at="2026-03-26T13:54:47 IST" duration-ms="34482">
+  <suite started-at="2026-03-26T14:14:08 IST" name="Default suite" finished-at="2026-03-26T14:15:30 IST" duration-ms="82193">
     <groups>
     </groups>
-    <test started-at="2026-03-26T13:54:12 IST" name="Default test" finished-at="2026-03-26T13:54:47 IST" duration-ms="34482">
+    <test started-at="2026-03-26T14:14:08 IST" name="Default test" finished-at="2026-03-26T14:15:30 IST" duration-ms="82193">
       <class name="testCaseRepo.TC_001">
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:54:12 IST" name="bcConfig" finished-at="2026-03-26T13:54:15 IST" duration-ms="2670" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T14:14:08 IST" name="bcConfig" finished-at="2026-03-26T14:14:15 IST" duration-ms="7105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:54:15 IST" name="bmConfig" finished-at="2026-03-26T13:54:22 IST" duration-ms="7446" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T14:14:15 IST" name="bmConfig" finished-at="2026-03-26T14:14:21 IST" duration-ms="6029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="LE_001()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:54:22 IST" name="LE_001" finished-at="2026-03-26T13:54:45 IST" duration-ms="22911" status="PASS">
+        <test-method retried="true" signature="LE_001()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T14:14:21 IST" name="LE_001" finished-at="2026-03-26T14:15:01 IST" duration-ms="39886" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Add to cart']"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b57c1f193bbb212ea1de66996d088e5, findElement {value=//div[text()='Add to cart'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\SIVASU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4433}, goog:processID: 15532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4433/devtool..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b57c1f193bbb212ea1de66996d088e5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Add to cart']"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b57c1f193bbb212ea1de66996d088e5, findElement {value=//div[text()='Add to cart'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\SIVASU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4433}, goog:processID: 15532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4433/devtool..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b57c1f193bbb212ea1de66996d088e5
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+at testCaseRepo.TC_001.LE_001(TC_001.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LE_001 -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T13:54:45 IST" name="acConfig" finished-at="2026-03-26T13:54:47 IST" duration-ms="1395" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T14:15:01 IST" name="bmConfig" finished-at="2026-03-26T14:15:08 IST" duration-ms="7041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="LE_001()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T14:15:08 IST" name="LE_001" finished-at="2026-03-26T14:15:29 IST" duration-ms="20762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LE_001 -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:testCaseRepo.TC_001@292b08d6]" started-at="2026-03-26T14:15:29 IST" name="acConfig" finished-at="2026-03-26T14:15:30 IST" duration-ms="1265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
