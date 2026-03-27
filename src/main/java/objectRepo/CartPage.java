@@ -25,6 +25,8 @@ public class CartPage {
 	}
 	
 	public void productAvail() throws IOException {
+		getCartBtn().click();
+		if(getCartBtn().isDisplayed())
 		new Screenshot().screenshotThePage(d, "cart_result");
 	}
 	
